@@ -1,4 +1,4 @@
-package com.critkode.astro_paws
+package com.xatiko.astro_paws
 
 import io.flutter.embedding.android.FlutterActivity
 

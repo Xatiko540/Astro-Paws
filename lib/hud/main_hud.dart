@@ -20,13 +20,13 @@ class MainHud extends PositionComponent with HasGameReference<AstroPawsGame> {
     );
 
     _scoreTextComponent = TextComponent(
-      text: 'Meow Points: ${game.currentScore}',
+      text: 'Мяу-пойнты: ${game.currentScore}',
       position: Vector2(10, 10),
       textRenderer: textRenderer,
     );
 
     _kibbleProgressBar = ProgressBar(
-      label: 'Kibble Power',
+      label: 'Киббл Власть',
       position: Vector2(10, 90),
       size: Vector2(200, 16),
     );
@@ -40,7 +40,7 @@ class MainHud extends PositionComponent with HasGameReference<AstroPawsGame> {
       ),
       _scoreTextComponent,
       TextComponent(
-        text: 'Top score: $topScore',
+        text: 'Лучший результат: $topScore',
         position: Vector2(10, 40),
         textRenderer: textRenderer,
       ),
@@ -57,7 +57,7 @@ class MainHud extends PositionComponent with HasGameReference<AstroPawsGame> {
 
   @override
   void update(double dt) {
-    _scoreTextComponent.text = 'Meow Points: ${game.currentScore}';
+    _scoreTextComponent.text = 'Мяу-пойнты: ${game.currentScore}';
 
     // Show "Has paw shield" text only if hasPawShield is true and less than 10 seconds have passed
     final bool showPawShield = game.hasPawShield &&

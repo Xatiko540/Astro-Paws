@@ -35,7 +35,7 @@ class _PauseMenuState extends State<PauseMenu> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                'Don\'t let the lemons win!',
+                'Не дайте\'лимонам победить!',
                 style: TextStyle(
                   fontSize: 24,
                   color: whiteTextColor,
@@ -45,9 +45,9 @@ class _PauseMenuState extends State<PauseMenu> {
               ElevatedButton(
                 onPressed: () {
                   widget.game.resumeEngine();
-                  widget.game.overlays.remove('Pause');
+                  widget.game.overlays.remove('Пауза');
                 },
-                child: const Text('🐾 Back to Battle',
+                child: const Text('🐾 Назад в битву',
                   style: TextStyle(
                     fontSize: 25.0,
                     color: Colors.black,

@@ -28,7 +28,7 @@ class MainMenu extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                'Astro Paws',
+                'Астро-лапы',
                 style: TextStyle(
                   fontSize: 24,
                   color: whiteTextColor,
@@ -47,7 +47,7 @@ class MainMenu extends StatelessWidget {
                     backgroundColor: whiteTextColor,
                   ),
                   child: const Text(
-                    'Engage Cat Thrusters',
+                    'Старт Cat',
                     style: TextStyle(
                       fontSize: 25.0,
                       color: Colors.black,
@@ -57,7 +57,7 @@ class MainMenu extends StatelessWidget {
               ),
               const SizedBox(height: 20),
               const Text(
-                '''Drag the cat with the mouse or touch.''',
+                '''Вселенная не однозначна, исследуйте ее.''',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: whiteTextColor,
